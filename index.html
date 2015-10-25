@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login page</title>
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="contain log">
+		<div class="signup">
+			<div class="title">
+				<p>Inscription</p>
+			</div>
+			<form name="signup" signup ng-submit="signupCtrl.action()">
+				<div class="form-group">
+					<label>Login</label>
+					<input type="text" class="form-control" ng-model="su_username" placeholder="Login">
+				</div>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="email" class="form-control" ng-model="su_email" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" class="form-control" ng-model="su_password" placeholder="Password">
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+		<div class="signin">
+			<div class="title">
+				<p>Connexion</p>
+			</div>
+			<form name="signin" signin ng-submit="signinCtrl.action()">
+				<div class="form-group">
+					<label>Login</label>
+					<input type="text" class="form-control" ng-model="si_username" placeholder="Login">
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<input type="password" class="form-control" ng-model="si_password" placeholder="Password">
+				</div>
+				<a href="http://localhost/hackaton-static/views/home.html" class="btn btn-default">Submit</a>
+				<!--<button type="submit" href="http://localhost/hackaton-static/views/home.html" class="btn btn-default">Submit</button>-->
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/lib/jquery/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery/jquery.md5.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

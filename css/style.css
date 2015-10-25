@@ -1,0 +1,92 @@
+html {
+  position: relative; }
+
+body {
+  padding-top: 120px; }
+  body ul {
+    list-style: none; }
+  body a:hover {
+    text-decoration: none; }
+  body .flash {
+    color: #FFF;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 35px 30px 34px 30px;
+    font-size: 1.5em;
+    opacity: 0; }
+  body #success {
+    background-color: #4AC920; }
+  body #warning {
+    background-color: #E6B822; }
+  body #error {
+    background-color: #C73232; }
+
+.banner {
+  position: absolute;
+  padding: 15px 0 15px 30px;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: #248FB3; }
+  .banner a {
+    color: #FFF; }
+    .banner a:hover {
+      color: #4AC920; }
+
+.contain {
+  padding: 15px 15px 15px 15px; }
+
+.log .signin {
+  float: right;
+  height: 368px; }
+.log .signup {
+  float: left; }
+.log .signin, .log .signup {
+  padding: 30px 30px 30px 30px;
+  display: inline-block;
+  border: 1px solid #248FB3; }
+  .log .signin .title, .log .signup .title {
+    text-align: center; }
+    .log .signin .title p, .log .signup .title p {
+      font-size: 2em; }
+
+/*# sourceMappingURL=style.css.map */
+
+.slider {
+   width: 350px;
+   height: 200px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+.slider ul {
+    /* 4 images donc 4 x 100% */
+   width: 400%;
+   height: 200px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slider li {
+   float: left;
+}
+
+.imagesli {
+  width: 350px;
+  height: 200px;
+  height: inherit;
+}
+
+body {
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.signup {
+	margin-left: 25%;
+}
+
+.signin {
+	margin-right: 20%;
+}

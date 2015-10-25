@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creation d'evenement</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="create">
+		<div class="container">
+			<header>
+				<p class="login"><a href="#">Connexion</a>|<a href="#">Se connecter</a></p>
+				<!-- <p></p> -->
+			</header>
+			<div class="white">
+				<h1 class="bigTitle">Party with me</h1>
+				<div class="list1">
+					<ul>
+						<li><a href="http://localhost/hackaton-static/views/agenda/agenda.html">Agenda</a></li>
+						<li><a href="#">Salles</a></li>
+						<li><a href="#">Concept</a></li>
+						<li><a href="http://localhost/hackaton-static/views/create/create.html">Créer</a></li>
+						<li><a href="http://localhost/hackaton-static/views/search/search.html">Recherche</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- <div class="retoosh"> -->
+			<div class="form-style-10">
+				<h1>Créer mon événement</h1>
+				<form>
+					<div class="section"><span>1</span>Titre de l'événement &amp; adresse</div>
+					<div class="inner-wrap">
+						<label>Titre <input type="text" name="field1"/>
+						</label>
+						<label>adresse <textarea name="field2"></textarea></label>
+					</div>
+
+					<div class="section"><span>2</span>Type</div>
+					<div class="inner-wrap">
+						<label class="case">Concert
+							<input type="checkbox" name="checkbox1" value="checkbox">
+						</label>
+						<label class="case">Reception
+							<input type="checkbox" name="checkbox1" value="checkbox">
+						</label>
+						<label class="case">soiree
+							<input type="checkbox" name="checkbox1" value="checkbox">
+						</label>
+						<label class="case">reunion
+							<input type="checkbox" name="checkbox1" value="checkbox">
+						</label>
+						<label class="public">Tout public
+						<input type="checkbox" name="checkbox1" value="checkbox">
+						</label>
+						<label class="prive">Prive
+						<input type="checkbox" name="checkbox1" value="checkbox">
+						</label>
+					</div>
+
+					<div class="section"><span>3</span>Date &amp; Heure</div>
+					<div class="inner-wrap">
+						<label><input type="date" name="date" value="<?php echo $today?>"></label>
+						<label>Heure <input type="time" name="heure"></label>
+					</div>
+
+					<div class="section"><span>4</span>Description</div>
+					<div class="inner-wrap">
+						<label><textarea name="textarea"></textarea></label>
+					</div>
+					<div class="button-section">
+						<input type="submit" name="Sign Up" />
+						<span class="privacy-policy">
+							<input type="checkbox" name="field7">You agree to our Terms and Policy. 
+						</span>
+					</div>
+				</form>
+			</div>
+			<!-- </div> -->
+			<footer>
+				<div class="black">
+					<div class="list2">
+						<ul>
+							<li>Contacts</li>
+							<li>A propos</li>
+							<li>Feedback</li>
+							<li>CGU</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+	</html>
