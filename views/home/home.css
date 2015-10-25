@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-style: helvetica;
+	padding-bottom: 200px;
+}
+
+header {
+	height: 70px;
+	background-color: black;
+	position: relative;
+}
+
+html {
+	position: relative;
+}
+
+.white {
+	height: 120px;
+	background-color: white;
+	color: black
+}
+
+.sliderImage {
+	height: 700px;
+	width: 100%;
+	/*background-color: black;*/
+}
+
+/*.retoosh {
+	background-color: black;
+	}*/
+
+	.login {
+		color: white;
+		/*float: right;*/
+		margin-top: 5%;
+		width: 220px;
+		position: absolute;
+		right: 0%;
+		bottom: calc(10px + 2%);
+	}
+
+	.login a {
+		text-decoration: none;
+		color: white;
+		margin: 4px;
+	}
+	.bigTitle {
+		font-size: 2em;
+		width: auto;
+		margin: 7px auto 0px 42%;
+		/*float: left;*/
+		text-transform: uppercase;
+		/*margin-left: 45%;*/
+	}
+
+	.list1 { 
+		width: 100%;
+		float: right;
+		margin-top: 20px;
+
+	}
+	.list1 ul { 
+		list-style:none; 
+		text-align:center; 
+		border-top:1px solid #eee; 
+		border-bottom:1px solid #eee; 
+		padding:10px 0; 
+	}
+	.list1 ul li {
+		display:inline;
+		text-transform:uppercase;
+		padding:0 10px; 
+		letter-spacing:10px;
+	}
+	.list1 ul li a { 
+		text-decoration:none; 
+		color:black; 
+	}
+	.list1 ul li a:hover {
+		text-decoration:underline;
+	}
+
+	.list2 { 
+		width: 100%;
+		float: right;
+		margin-top: 20px;
+		color: white
+
+	}
+	.list2 ul { 
+		list-style:none; 
+		text-align:center; 
+		border-top:1px solid white; 
+		border-bottom:1px solid white; 
+		padding:10px 0; 
+	}
+	.list2 ul li {
+		display:inline;
+		text-transform:uppercase;
+		padding:0 10px; 
+		letter-spacing:10px;
+	}
+	.list2 ul li a { 
+		text-decoration:none; 
+		color:black; 
+	}
+	.list2 ul li a:hover {
+		text-decoration:underline;
+	}
+
+	.black {
+		width: 100%;
+		background-color: black;
+		height: 80px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.mostViewed {
+		height: 100%;
+		width: 44%;
+		display: inline-block;
+		/*background-color: white;*/
+		border: 1px solid black;
+		float: right;
+		padding: 25px;
+		border-radius: 8px;
+		background-image: url("coucou.jpg");
+		background-size: cover;
+		position: relative;
+	}
+
+	.myEvents {
+		height: 100%;
+		width: 44%;
+		display: inline-block;
+		/*background-color: white;*/
+		border: 1px solid black;
+		float: right;
+		padding: 25px;
+		border-radius: 8px;
+		background-image: url("lol.jpeg");
+		background-size: cover;
+		position: relative;
+		margin-right: 50px;
+	}
+
+	.wrapperEvent {
+		width: 75%;
+		height: 500px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+		margin-top: 10px;
+		/*float: right;*/
+	}
+
+	.mdr {
+		width: 50px;
+		height: 50px;
+		float: left;
+	}
+
+	.articleEvent h4 {
+		margin-left: 50px;
+	}
+
+	.articleEvent p {
+		margin-left: 65px;
+	}
+
+	footer {
+		margin-top: 60px;
+	}
+
+	.wrapperEvent h3 {
+		margin-top: 60px;
+		font-size: 1.5em;
+		color: white;
+		text-transform: uppercase;
+		/*text-shadow: 2px 1px 2px black;*/
+		text-align: center;
+	}
+
+	.wrapperEvent p {
+		margin-top: 50px;
+		color: white;
+		padding-right: 60px;
+		text-align: justify;
+		/*text-shadow: 2px 1px 2px white;*/
+	}
+
+	.wrapperEvent a {
+		color: white;
+		text-decoration: none;
+		position: absolute;
+		bottom: 25px;
+		right: 35px;
+		text-transform: uppercase;
+	}
+
+	.filter {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-radius: 8px;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+
+	}
+
+	.wrapperEvent h2 {
+		text-transform: uppercase;
+		color: black;
+		text-align: center;
+		font-size: 1.8em;
+		margin-bottom: 20px;
+		margin-top: 15px;
+	}
